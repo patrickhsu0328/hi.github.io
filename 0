@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div style="display: inline-block;border-style:solid;width: 80px;height: 70px;padding: 0px 0px 0pX 25px;">
+            <h2>狀態</h2></div>
+     
+         <div style="display: inline-block;border-style:solid;width: 190px;height: 70px;padding: 0px 0px 0px 70px;">
+             <h2>剩餘時間</h2></div>
+         <div style="display: inline-block;border-style:solid;width: 80px;height: 70px;padding: 0px 0px 0pX 25px;">
+             <h2>狀態</h2></div>
+          
+         <div style="display: inline-block;border-style:solid;width: 190px;height: 70px;padding: 0px 0px 0px 70px;">
+             <h2>剩餘時間</h2></div>
+         <div style="display: inline-block;border-style:solid;width: 300px;height: 70px;padding: 0px 0px 0px 0px;">
+             <input type="button" value="緊急開鎖" name="緊急開鎖" style="width:300px;height:70px;font-size:50px;"></div>
+        <script language="javascript">
+            var a=1;
+            if(a==0){
+                document.write('<img src="http://www.cetbooks.com.tw/myweb/book/ckfinder/userfiles/images/First%20School%E7%8D%8E%E5%8B%B5%E9%9B%86%E9%BB%9E%E5%8D%A12.jpg">');
+            }
+            else if(a==1){
+                document.write('<img src="https://lh3.googleusercontent.com/proxy/u20xSvmrIojUspD98Aln-xcpajzl3jNOCCTfzSmrXXjn5lWAM148JSf-oscO_hStjLBzAMCGxjmpcyh6tDcd8mqJStBrRvo">');
+            }
+            
+        </script>
+    </body>
+
+</html>
